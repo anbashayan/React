@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Garage from './Garage';
 import Car from './Components/Car';
+import Banana from './Components/Banana';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -11,6 +12,7 @@ function Lobby(){
     <div>
           <h2>Who's in my lobby?</h2>
           <Car/>
+          <Banana/>
           {/* here above two componenets are child elements of div */}
     </div>
   );
