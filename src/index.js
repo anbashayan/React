@@ -11,10 +11,17 @@ function Cars(){
   );
 }
 
+function Campus(){
+  return(
+    <h2>Hi I'm UCSC Student</h2>
+  );
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Cars/>
+    <Campus/>
   </React.StrictMode>
 );
 
