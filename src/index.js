@@ -2,26 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Garage from './Garage';
-import Car from './Car';
+import Car from './Components/Car';
 import reportWebVitals from './reportWebVitals';
 
-function Cars(){
-  return(
-    <h2>Hi I'm UCSC Student</h2>
-  );
-}
 
-function Campus(){
+function Lobby(){
   return(
-    <h2>Hi I'm UCSC Student</h2>
+    <div>
+          <h2>Who's in my lobby?</h2>
+          <Car/>
+          {/* here above two componenets are child elements of div */}
+    </div>
   );
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Cars/>
-    <Campus/>
+    <Lobby/>
   </React.StrictMode>
 );
 
