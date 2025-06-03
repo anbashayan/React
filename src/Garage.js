@@ -8,6 +8,8 @@ function Garage(){
     const carInfo = { brand:"Ferrari", color:"Black"}
     const appleInfo = {type:"Fuji", color:"Red"}
 
+    const studentInfo = {name:"Sujanasrishayan A.",indexNo:"22020977"}
+
     // props used in class as componets
     return(
         <>
