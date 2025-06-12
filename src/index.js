@@ -5,6 +5,7 @@ import Garage from './Garage';
 import Car from './Components/Car';
 import Banana from './Components/Banana';
 import reportWebVitals from './reportWebVitals';
+import NameShow from './Components/Name';
 
 
 function Lobby(){
@@ -13,10 +14,13 @@ function Lobby(){
           <h2>Who's in my lobby?</h2>
           <Car/>
           <Banana/>
+          <NameShow/>
           {/* here above two componenets are child elements of div */}
     </div>
   );
 }
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
