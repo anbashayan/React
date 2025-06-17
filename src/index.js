@@ -6,16 +6,18 @@ import Car from './Components/Car';
 import Banana from './Components/Banana';
 import reportWebVitals from './reportWebVitals';
 import NameShow from './Components/Name';
+import Vehicle from './Components/Vehicle';
 
 
 function Lobby(){
   return(
     <div>
           <h2>Who's in my lobby?</h2>
-          <Car/>
           <Banana/>
           <NameShow/>
           {/* here above two componenets are child elements of div */}
+          <Vehicle/>
+          <Car vehicleInfo={{ brand: "Honda", color: "Grey" }} />
     </div>
   );
 }
