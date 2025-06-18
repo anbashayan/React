@@ -29,6 +29,9 @@ function Garage(){
         <Car carInfo = {carInfo}/>:null }
         <Apple appleInfo ={appleInfo} />
         {isDoorOpened ? <h2>Garage door is opened</h2> : <h2>Garage door is closed</h2>}
+
+        <ul>
+            {carList.map((carInfo) =>  <li><Car carInfo={carInfo}/></li> )}        </ul>
         </>
     )   
 }
