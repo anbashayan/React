@@ -10,6 +10,12 @@ function Garage(){
     const carInfo ={};
     const appleInfo = {type:"Fuji", color:"Red"}
 
+    const carList =[
+        {brand:"Toyota",color:"black"},
+        {brand:"Nissan",color:"blue"},
+        {brand:"Honda",color:"white"}
+    ]
+
 
 
     const studentInfo = {name:"Sujanasrishayan A.",indexNo:"22020977"}
