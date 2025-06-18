@@ -2,11 +2,15 @@ import Car from './Car';
 import Apple from './Apple';
 
 function Garage(){
+     const isDoorOpened = false;
     // const brand = 'Ferrari';
     // const color = 'Black';
 
-    const carInfo = { brand:"Ferrari", color:"Black"}
+    // const carInfo = { brand:"Ferrari", color:"Black"}
+    const carInfo ={};
     const appleInfo = {type:"Fuji", color:"Red"}
+
+
 
     const studentInfo = {name:"Sujanasrishayan A.",indexNo:"22020977"}
 
@@ -14,11 +18,13 @@ function Garage(){
     return(
         <>
         <h1>Who lives inside my garage?</h1>
-        {/* <Car brand = {brand} color = {color}/> */}
-        <Car carInfo = {carInfo}/>
+        {carInfo.brand !== undefined && carInfo.color !== undefined ?
+        // {<Car brand = {brand} color = {color}/> }
+        <Car carInfo = {carInfo}/>:null }
         <Apple appleInfo ={appleInfo} />
+        {isDoorOpened ? <h2>Garage door is opened</h2> : <h2>Garage door is closed</h2>}
         </>
-    )
+    )   
 }
 
 export default Garage;

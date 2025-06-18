@@ -13,10 +13,11 @@ function Lobby(){
   return(
     <div>
           <h2>Who's in my lobby?</h2>
-          <Banana/>
-          <NameShow/>
+          {/* <Banana/> */}
+          {/* <NameShow/> */}
           {/* here above two componenets are child elements of div */}
-          <Vehicle/>
+          {/* <Vehicle/> */}
+          <Garage/>
           <Car vehicleInfo={{ brand: "Honda", color: "Grey" }} />
     </div>
   );
