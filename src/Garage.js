@@ -1,5 +1,4 @@
 import Car from './Car';
-// import Apple from './Apple';
 
 function Garage(){
      const isDoorOpened = false;
