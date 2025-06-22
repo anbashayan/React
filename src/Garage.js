@@ -15,9 +15,9 @@ function Garage(){
         {brand:"Honda",color:"white"}
     ]
 
+    const numberList = [1,2,3,4,5,6,7,8,9];
 
-
-    const studentInfo = {name:"Sujanasrishayan A.",indexNo:"22020977"}
+    // const studentInfo = {name:"Sujanasrishayan A.",indexNo:"22020977"}
 
     // props used in class as componets
     return(
@@ -30,7 +30,11 @@ function Garage(){
         {isDoorOpened ? <h2>Garage door is opened</h2> : <h2>Garage door is closed</h2>}
 
         <ul>
-            {carList.map((carInfo) =>  <li><Car carInfo={carInfo}/></li> )}        </ul>
+            {carList.map((carInfo) =>  <li key={carInfo.brand}><Car carInfo={carInfo}/></li> )}        
+        </ul>
+        <ul>
+            {numberList.map((e)=> <p>{e}</p>)}
+        </ul>
         </>
     )   
 }
