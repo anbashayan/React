@@ -7,6 +7,7 @@ import Banana from './Components/Banana';
 import reportWebVitals from './reportWebVitals';
 import NameShow from './Components/Name';
 import Vehicle from './Components/Vehicle';
+import Header from './Components/Header';
 
 
 function Lobby(){
@@ -17,7 +18,7 @@ function Lobby(){
           {/* <NameShow/> */}
           {/* here above two componenets are child elements of div */}
           {/* <Vehicle/> */}
-          <Garage/>
+          <Header/>
           <Car vehicleInfo={{ brand: "Honda", color: "Grey" }} />
     </div>
   );
