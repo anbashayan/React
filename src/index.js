@@ -1,25 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Garage from './Garage';
-import Car from './Components/Car';
-import Banana from './Components/Banana';
+// import Garage from './Garage';
+// import Car from './Components/Car';
+// import Banana from './Components/Banana';
 import reportWebVitals from './reportWebVitals';
-import NameShow from './Components/Name';
-import Vehicle from './Components/Vehicle';
-import Header from './Components/Header';
+  // import NameShow from './Components/Name';
+  // import Vehicle from './Components/Vehicle';
+// import Header from './Components/Header';
+import FavouriteColor from './Components/FavouriteColor';
+import Color from './Components/Color';
+import Scooter from './Components/Scooter'
 
 
 function Lobby(){
   return(
     <div>
-          <h2>Who's in my lobby?</h2>
+          {/* <h2>Who's in my lobby?</h2> */}
           {/* <Banana/> */}
           {/* <NameShow/> */}
           {/* here above two componenets are child elements of div */}
           {/* <Vehicle/> */}
-          <Header/>
-          <Car vehicleInfo={{ brand: "Honda", color: "Grey" }} />
+          {/* <Header/> */}
+          {/* <Car vehicleInfo={{ brand: "Honda", color: "Grey" }} /> */}
+          <FavouriteColor/>
     </div>
   );
 }
@@ -30,6 +34,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Lobby/>
+    <Color/>
+    <Scooter/>
   </React.StrictMode>
 );
 
