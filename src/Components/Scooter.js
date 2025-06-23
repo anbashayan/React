@@ -8,7 +8,7 @@ function Scooter(){
     return(
         <>
             <h1>My Scooter</h1>
-            <p>Color :{Color}</p>
+            {/* <p>Color :{Color}</p> */}
             <p>Brand:{Brand}</p>
             <p>Model:{Model}</p>
             <p>Year:{Year}</p>
