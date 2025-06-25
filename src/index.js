@@ -11,6 +11,7 @@ import reportWebVitals from './reportWebVitals';
 import FavouriteColor from './Components/FavouriteColor';
 import Color from './Components/Color';
 import Scooter from './Components/Scooter'
+import Bike from './Components/Bike'
 
 
 function Lobby(){
