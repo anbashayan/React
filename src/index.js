@@ -12,10 +12,11 @@ import FavouriteColor from './Components/FavouriteColor';
 import Color from './Components/Color';
 import Scooter from './Components/Scooter'
 import Bike from './Components/Bike'
+import Cycle from './Components/Cycle'
 
 
 function Lobby(){
-  return(vcgf
+  return(
     <div>
           {/* <h2>Who's in my lobby?</h2> */}
           {/* <Banana/> */}
@@ -37,6 +38,7 @@ root.render(
     <Lobby/>
     <Color/>
     <Scooter/>
+    <Cycle/>
   </React.StrictMode>
 );
 
