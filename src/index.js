@@ -13,6 +13,7 @@ import Color from './Components/Color';
 import Scooter from './Components/Scooter'
 import Bike from './Components/Bike'
 import Cycle from './Components/Cycle'
+import List from './Components/List';
 
 
 function Lobby(){
@@ -39,6 +40,7 @@ root.render(
     <Color/>
     <Scooter/>
     <Cycle/>
+    <List/>
   </>
 );
 
