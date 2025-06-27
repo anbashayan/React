@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from 'Head.module.css'
+// import styles from 'Head.module.css'
 
 function Bike(){
     const[color,setColor] = useState("Red");
