@@ -35,7 +35,7 @@ function Lobby(){
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>ew
+  <>ewhvhj
     <Lobby/>
     <Color/>
     <Scooter/>
