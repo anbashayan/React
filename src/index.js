@@ -39,7 +39,7 @@ root.render(
     <Lobby/>
     <Color/>
     <Scooter/>
-    <Cycle/>
+    <Cycle/>j
     <List/>
   </>
 );
