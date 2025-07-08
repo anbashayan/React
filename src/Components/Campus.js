@@ -1,1 +1,4 @@
-fucntion Campus(){}
+fucntion Campus(){
+
+}
+export default Campus;
