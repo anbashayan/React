@@ -1,4 +1,4 @@
-fucntion Campus(){
+function Campus(){
 
 }
 export default Campus;
